@@ -14,9 +14,9 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             text: 'Linux',
             collapsed: false,
             items: [
-                { text: 'vim', link: '/编程学习/Linux学习/001-vim' },
-                { text: 'linux常用命令', link: '/编程学习/Linux学习/002-linux常用命令' },
-                { text: 'The Missing Semester', link: '/编程学习/Linux学习/003-The Missing Semester' }
+                { text: 'vim', link: '/编程学习/Linux/001-vim' },
+                { text: 'linux常用命令', link: '/编程学习/Linux/002-linux常用命令' },
+                { text: 'The Missing Semester', link: '/编程学习/Linux/003-The Missing Semester' }
             ]
         }
     ],
