@@ -126,7 +126,6 @@ int main()
 [打开LinkTest.png照片](./img/LinkTest.png)
 ```
 
-[打开text文档](./123.text)
 
 ##### 页内跳转
 
