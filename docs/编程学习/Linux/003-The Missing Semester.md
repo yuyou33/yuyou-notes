@@ -1,10 +1,10 @@
 ## 第一讲 课程概览与shell
 ##### `ctrl`+`l`清屏快捷键
 ##### `<` `>` 重定向
-	`cat < t1.text > t2.text`  示例
+`cat < t1.text > t2.text`  示例
 ##### `>>` 追加
 ##### `|` 管道符（取左边的输出作为右边的输入）
-	`ls -l | tail -n1`示例：输出最后一行
+`ls -l | tail -n1`示例：输出最后一行
 ##### `sudo su`以超级用户登陆shell
 ##### `tee` 将输入传入文件并输出
 ##### `xdg-open`以合适的程序打开相应文件
@@ -18,7 +18,7 @@ eg:`foo=bar`
 #### 字符串表示
 #####  双引号`“` 会将其中的变量替换 
 eg: `echo "value is $foo"`
-	`value is bar`
+`value is bar`
 #####  单引号`’` 直接输出 
 #### 创建一个函数的步骤
 `vim mcd.sh`创建脚本文件
@@ -72,7 +72,7 @@ CtrlP文件查找工具
 ##### `sed`流编辑器
  eg:`sed 's/.*exmple//'`将exmple和前面的字符替换为空
  eg:`sed 's/[ab]//'`将a或b替换为空
-	 ps:这里需要用到正则表达式[[002•正则表达式]]
+> ps:这里需要用到正则表达式[[002•正则表达式]]
 ##### `wc`统计工具
 `-l`显示行数
 ##### `sort`排序
@@ -103,13 +103,13 @@ SIGSTOP 停止程序 ^z
 ##### 一些指令
 `sleep`
 `jobs`显示任务
-	以`%1`标识符指代任务
+以`%1`标识符指代任务
 `bg` background 继续执行任务
 `fg`
 `nohup`不接受挂起HUP
-	`&`在后台执行
+`&`在后台执行
 `kill`
-	`-STOP`
+`-STOP`
 ### 2.终端复用器
 #### tmux
 ##### session
@@ -202,7 +202,7 @@ python -m http.server 8888
 `git help <command>`: 获取 git 命令的帮助信息
 `git init`: 创建一个新的 git 仓库，其数据会存放在一个名为 .git 的目录下
 `git status`: 显示当前的仓库状态
-	-s显示简短信息
+-s显示简短信息
 `git add <filename>`: 添加文件到暂存区
 `git commit`: 创建一个新的提交
 `git log`: 显示历史日志
@@ -253,9 +253,9 @@ linux日志一般存放在/var/log目录下
 系统日志在/var/log/syslog/
 `lnav`日志查看工具,有高亮提示
 `journalctl`linux下的日志查看命令
-	eg:`journalctl --since "1m ago"`
+eg:`journalctl --since "1m ago"`
 向系统日志中写日志
-	eg:`logger "hello logs"`
+eg:`logger "hello logs"`
 
 ### 调试
 python的调试器是pdb (ipdb更好用)
@@ -328,9 +328,9 @@ python -m memory_profiler example.py
 - 被进程打开文件信息 **lsof**
 - 网络连接和配置 **ss**
 - 网络使用 **nethogs** **iftop**
-	**stress** 压力测试工具
-	**hyperfine** 基准测试 
-	eg:比较`fd`和`find`速度`hyperfine --warmup 3 'fd -e jpg' 'find . -iname "*.jpg"'`
+**stress** 压力测试工具
+**hyperfine** 基准测试 
+eg:比较`fd`和`find`速度`hyperfine --warmup 3 'fd -e jpg' 'find . -iname "*.jpg"'`
 
 ---
 
