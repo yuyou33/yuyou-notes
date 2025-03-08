@@ -31,3 +31,14 @@ package-lock.json
 
 # user-specific files
 .obsidian
+docs/**/*.pdf
+docs/**/*.cpp
+docs/**/*.h
+docs/**/*.txt
+docs/**/Makefile
+docs/**/*.ui
+docs/**/main
+docs/**/.gitignore
+docs/**/*.pro
+
+
