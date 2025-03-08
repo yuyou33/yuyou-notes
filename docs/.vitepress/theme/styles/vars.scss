@@ -101,3 +101,10 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
+
+.VPDoc h1 {
+  background: -webkit-linear-gradient(10deg, #3798e2 5%, #39efac 15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
