@@ -1,4 +1,4 @@
-# 第一讲 课程概览与shell
+## 第一讲 课程概览与shell
 ##### `ctrl`+`l`清屏快捷键
 ##### `<` `>` 重定向
 	`cat < t1.text > t2.text`  示例
@@ -11,7 +11,7 @@
 
 ---
 
-# 第二讲 shell工具和脚本
+## 第二讲 shell工具和脚本
 #### 变量
 eg:`foo=bar`
 引用的时候用`$foo`
@@ -59,7 +59,7 @@ eg:`find . -name '*.tmp' -exec rm {}\;`
 
 ---
 
-# 第三讲 编辑器（vim）
+## 第三讲 编辑器（vim）
 `.`按下后重复操作
 
 ##### vim插件
@@ -67,7 +67,7 @@ CtrlP文件查找工具
 
 ---
 
-# 第四讲 数据整理
+## 第四讲 数据整理
 ##### `less`翻页器
 ##### `sed`流编辑器
  eg:`sed 's/.*exmple//'`将exmple和前面的字符替换为空
@@ -94,7 +94,7 @@ eg:`    | xargs rustup toolchain uninstall`
 
 ---
 
-# 第五讲命令行环境
+## 第五讲命令行环境
 ### 1.任务控制
 ##### signal
 Unix信号
@@ -196,7 +196,7 @@ python -m http.server 8888
 
 ---
 
-# 第六讲 版本控制(git) 
+## 第六讲 版本控制(git) 
 ### Git 的命令行接口
 ##### 基础
 `git help <command>`: 获取 git 命令的帮助信息
@@ -245,7 +245,7 @@ python -m http.server 8888
 
 ---
 
-# 第七讲 调试及性能分析
+## 第七讲 调试及性能分析
 
 
 ### 日志
@@ -334,7 +334,7 @@ python -m memory_profiler example.py
 
 ---
 
-# 第八讲 元编程
+## 第八讲 元编程
 ### make
 ### 依赖
 语义版本号
@@ -346,7 +346,7 @@ python -m memory_profiler example.py
 
 ---
 
-# 第九讲 安全和密码学
+## 第九讲 安全和密码学
 ### 熵
 $log_2X$
 ### 哈希函数
@@ -365,7 +365,7 @@ printf 'hello' | sha1sum
 
 ---
 
-# 第十讲 大杂烩
+## 第十讲 大杂烩
 ### 修改键盘映射
 下面是一些修改键位映射的软件：
 - macOS - [karabiner-elements](https://pqrs.org/osx/karabiner/), [skhd](https://github.com/koekeishiya/skhd) 或者 [BetterTouchTool](https://folivora.ai/)
@@ -397,7 +397,7 @@ printf 'hello' | sha1sum
 
 ---
 
-# 第十一讲 提问&回答
+## 第十一讲 提问&回答
 ### [课程讲义](https://missing-semester-cn.github.io/2020/qa/#%E6%9C%89%E5%93%AA%E4%BA%9B%E6%9C%89%E7%94%A8%E7%9A%84%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86%E5%B7%A5%E5%85%B7)
 
 **The end**
