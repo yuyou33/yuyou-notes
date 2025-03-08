@@ -31,6 +31,7 @@ package-lock.json
 
 # user-specific files
 .obsidian
+
 docs/**/*.pdf
 docs/**/*.cpp
 docs/**/*.h
