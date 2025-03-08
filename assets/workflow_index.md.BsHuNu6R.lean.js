@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.Dn391DXe.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"workflow/index.md","filePath":"workflow/index.md","lastUpdated":1741430187000}'),a={name:"workflow/index.md"};function r(n,s,d,c,i,p){return o(),t("div")}const _=e(a,[["render",r]]);export{l as __pageData,_ as default};
