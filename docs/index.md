@@ -11,12 +11,12 @@ hero:
     alt: 雨柚
   actions:
     - text: 编程学习
-      link: https://notes.fe-mm.com
+      link: /编程学习/
     - text: workflow
-      link: /nav/
+      link: /workflow/
       theme: alt
     - text: 实用工具
-      link: /nav/
+      link: /实用工具/
     - text: mmPlayer
       link: https://netease-music.fe-mm.com
       theme: alt
