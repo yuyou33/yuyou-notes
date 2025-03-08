@@ -9,3 +9,9 @@
   <div class="flex-row-center rounded-lg w-full h-40 bg-blue-500">vue 组件预览测试</div>
 </template>
 ```
+
+
+::: tip 提示
+这是一个提示
+:::
+
