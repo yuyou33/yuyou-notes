@@ -5,12 +5,14 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '导览', link: '/编程学习' },
         {
             text: 'C++',
+            collapsed: false,
             Items: [
                 { text: 'CS106L', link: '/编程学习/C++/CS106l' }
             ]
         },
         {
             text: 'Linux',
+            collapsed: false,
             Items: [
                 { text: 'vim', link: '/编程学习/Linux学习/001-vim' },
                 { text: 'linux常用命令', link: '/编程学习/Linux学习/002-linux常用命令' },
