@@ -3,12 +3,7 @@
  * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
  */
 
- .VPDoc h1 {
-  background: -webkit-linear-gradient(10deg, #3798e2 5%, #39efac 15%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 /**
  * Colors
@@ -42,6 +37,12 @@
   // --vp-c-text-code: #c0cec0;
 }
 
+.VPDoc h1 {
+  background: -webkit-linear-gradient(10deg, #3798e2 5%, #39efac 15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /**
  * Component: Button
  * -------------------------------------------------------------------------- */
