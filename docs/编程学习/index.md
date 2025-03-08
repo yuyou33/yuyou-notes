@@ -1,17 +1,52 @@
+# 第五讲命令行环境
+
+### 1.任务控制
+
+##### signal
+
+Unix信号
+SIGINT 程序终止信号 ^c
+SIGSTOP 停止程序 ^z 
+
+##### 一些指令
+
+`sleep`
+`jobs`显示任务
+	以`%1`标识符指代任务
+`bg` background 继续执行任务
+`fg`
+`nohup`不接受挂起HUP
+	`&`在后台执行
+`kill`
+	`-STOP`
+
+### 2.终端复用器
+
+#### tmux
+
+##### session
+
+`tmux`开始一个新的会话
+`tmux new -s NAME`以指定名称开始一个新的会话
+`tmux -ls`列出当前所有会话
+`<C-b> d` ，将当前会话分离
+`tmux a`重新连接最后一个会话 也可以通过 -t 来指定具体的会话
+
+##### windows
+
+`<C-b> c` 创建一个新的窗口，使用 `<C-d>` 关闭
+`<C-b> N` 跳转到第 N 个窗口，注意每个窗口都是有编号的
+`<C-b> p` 切换到前一个窗口
+`<C-b> n` 切换到下一个窗口
+`<C-b> ,` 重命名当前窗口
+`<C-b> w` 列出当前所有窗口
+
+##### panes
+
+`<C-b> "`水平分割
+`<C-b> %`垂直分割
+`<C-b> <方向>`切换到指定方向的面板，<方向> 指的是键盘上的方向键
+`<C-b> z 切换当前面板的缩放
+`<C-b> <空格>`在不同的面板排布间切换
+
 ### 3.dotfiles和配置shell
-
-##### dotfiles
-
- `bash` - `~/.bashrc`, `~/.bash_profile`
- `git` - `~/.gitconfig`
- `vim` - `~/.vimrc` 和 `~/.vim` 目录
- `ssh` - `~/.ssh/config`
- `tmux` - `~/.tmux.conf`
-参考:
-[Anish的配置](https://github.com/anishathalye/dotfiles)
-[Jon的配置](https://github.com/jonhoo/configs)
-[Jose的配置](https://github.com/jjgo/dotfiles)
-
-###### 别名
-
-`alias`
