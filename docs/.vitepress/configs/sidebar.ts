@@ -7,7 +7,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             text: 'C++',
             collapsed: false,
             items: [
-                { text: 'CS106L', link: '/编程学习/C++/CS106l' }
+                { text: 'CS106L', link: '/编程学习/C++/CS106L/CS106l' }
             ]
         },
         {
