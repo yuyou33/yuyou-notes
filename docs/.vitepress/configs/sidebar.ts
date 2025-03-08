@@ -6,14 +6,14 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         {
             text: 'C++',
             collapsed: false,
-            Items: [
+            items: [
                 { text: 'CS106L', link: '/编程学习/C++/CS106l' }
             ]
         },
         {
             text: 'Linux',
             collapsed: false,
-            Items: [
+            items: [
                 { text: 'vim', link: '/编程学习/Linux学习/001-vim' },
                 { text: 'linux常用命令', link: '/编程学习/Linux学习/002-linux常用命令' },
                 { text: 'The Missing Semester', link: '/编程学习/Linux学习/003-The Missing Semester' }
