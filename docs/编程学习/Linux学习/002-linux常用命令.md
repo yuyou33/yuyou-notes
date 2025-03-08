@@ -1,8 +1,3 @@
----
-dg-publish: "true"
-CreatDate: 2024-09-17T19:09:00
-ReviseDate: 2024-09-17T20:16:00
----
 ### `ls` 显示当前路径下的文件
 	`-l` 显示详细信息
 	```markdown
@@ -56,4 +51,3 @@ ReviseDate: 2024-09-17T20:16:00
 	`-p` 创建多级目录
 	`mkdir -p folder1/folder2/folder3` 示例
 ### `du` 查看目录大小/目录结构
-
