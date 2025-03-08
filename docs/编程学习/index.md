@@ -1,25 +1,3 @@
-# 第五讲命令行环境
-
-### 1.任务控制
-
-##### signal
-
-Unix信号
-SIGINT 程序终止信号 ^c
-SIGSTOP 停止程序 ^z 
-
-##### 一些指令
-
-`sleep`
-`jobs`显示任务
-	以`%1`标识符指代任务
-`bg` background 继续执行任务
-`fg`
-`nohup`不接受挂起HUP
-	`&`在后台执行
-`kill`
-	`-STOP`
-
 ### 2.终端复用器
 
 #### tmux
