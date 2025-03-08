@@ -34,7 +34,7 @@ export default defineConfig({
 
     /* 右侧大纲配置 */
     outline: {
-      level: '[1, 6]',
+      level: 'deep',
       label: '目录',
     },
 
