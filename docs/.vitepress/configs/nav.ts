@@ -10,6 +10,6 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: '实用工具', link: '/实用工具/' },
   {
     text: '测试页面',
-    link: '/test/',
+    link: '/test',
   },
 ]
