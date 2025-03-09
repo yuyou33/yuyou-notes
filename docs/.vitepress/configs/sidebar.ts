@@ -21,6 +21,12 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         }
     ],
     '/workflow/': [
+        {
+            text: 'git', 
+            items: [
+                { text: 'commit规范', link: '/workflow/git/commit规范'}
+            ]
+        },
         { text: '导览', link: '/workflow' },
         { text: 'Markdown', link: '/workflow/001-Markdown' },
         { text: '正则表达式', link: '/workflow/002-正则表达式' }
