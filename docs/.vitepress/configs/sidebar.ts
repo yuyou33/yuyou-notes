@@ -23,7 +23,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     '/workflow/': [
         { text: '导览', link: '/workflow' },
         {
-            text: 'git', 
+            text: 'git',
             collapsed: false,
             items: [
                 { text: 'commit规范', link: '/workflow/git/commit规范'}
@@ -31,12 +31,12 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         },
         { text: 'Markdown', link: '/workflow/001-Markdown' },
         { text: '正则表达式', link: '/workflow/002-正则表达式' },
-        { 
-            text: '踩坑记录', 
+        {
+            text: '踩坑记录',
             collapsed: false,
             items: [
                 { text: '踩坑记录', link: '/workflow/踩坑记录/踩坑记录'}
-            ]    
+            ]
         }
     ],
     '/实用工具/': [
