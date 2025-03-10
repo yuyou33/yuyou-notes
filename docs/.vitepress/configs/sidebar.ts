@@ -32,7 +32,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         { text: '正则表达式', link: '/workflow/002-正则表达式' }
     ],
     '/实用工具/': [
-        { text: '导览', link: '/实用工具'}
+        { text: '导览', link: '/实用工具'},
+        { text: 'pdf修改', link: '/实用工具/pdf修改'}
     ]
 
 }
