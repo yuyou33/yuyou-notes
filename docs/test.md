@@ -1,7 +1,9 @@
 # 功能测试页
+
 ## medium-zoom
 
 ![medium-zoom](/public/logo.png)
+
 ## vite-plugin-markdown-preview
 
 ```vue preview
@@ -10,8 +12,10 @@
 </template>
 ```
 
-
 ::: tip 提示
 这是一个提示
 :::
 
+::: info info
+test
+:::
