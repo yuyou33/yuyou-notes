@@ -1,4 +1,4 @@
-# commit 规范
+## commit 规范
 
 `git commit message`  的格式
 
@@ -31,3 +31,8 @@
 | _chore_          | 其他类型的提交                         |
 | _revert_         | 恢复或还原相关提交                     |
 | *wip* \| *draft* | 托管平台对应的草稿标识                 |
+
+::: tip 提示
+在 commit 时会有 pre-commit hook 检查
+想忽略他可以使用 `-n`即`--no-verify`
+:::
