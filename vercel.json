@@ -1,4 +1,6 @@
 {
+  "cleanUrls": true,
+
   "git": {
     "deploymentEnabled": {
       "gh-pages": false
