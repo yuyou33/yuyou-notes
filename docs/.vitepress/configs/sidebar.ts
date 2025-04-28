@@ -2,7 +2,7 @@ import type { DefaultTheme } from 'vitepress'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
     '/编程学习/': [
-        { text: '导览', link: '/编程学习' },
+        { text: '导览', link: '/编程学习/index' },
         {
             text: 'C++',
             collapsed: false,
@@ -21,7 +21,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         }
     ],
     '/workflow/': [
-        { text: '导览', link: '/workflow' },
+        { text: '导览', link: '/workflow/index' },
         {
             text: 'git',
             collapsed: false,
@@ -40,7 +40,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         }
     ],
     '/实用工具/': [
-        { text: '导览', link: '/实用工具'},
+        { text: '导览', link: '/实用工具/index'},
         { text: 'pdf修改', link: '/实用工具/pdf修改'}
     ]
 
