@@ -351,9 +351,20 @@ Title 为折叠显示的摘要
   <pre><code>
       code...
   </code></pre>
-  # 方式2 (三点）编程语言 code... （三点）
+  # 方式2 (三点）编程语言 code... （三点）(在obsidian和网站都不支持)
 </details>
 ```
+<details>
+  <summary>点我展开看代码</summary>
+  # 方式1
+  <pre><code>
+      code...
+  </code></pre>
+  # 方式2 (三点）编程语言 code... （三点）
+  ```c++
+  cout << "yuyou";
+  ```
+</details>
 
 ---
 
