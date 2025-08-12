@@ -354,6 +354,7 @@ Title 为折叠显示的摘要
   # 方式2 (三点）编程语言 code... （三点）(在obsidian和网站都不支持)
 </details>
 ```
+
 <details>
   <summary>点我展开看代码</summary>
   # 方式1
@@ -365,6 +366,23 @@ Title 为折叠显示的摘要
   cout << "yuyou";
   ```
 </details>
+
+折叠代码==2==
+
+````
+::: details 点我查看代码
+```js
+console.log('Hello, VitePress!')
+``` :::
+````
+
+::: details 点我查看代码
+
+```js
+console.log('hello')
+```
+
+:::
 
 ---
 
@@ -399,3 +417,45 @@ Title 为折叠显示的摘要
 
 用一对`~`将下标括起来，如：`H~2~O`表示 H~2~O
 用一对`^`将上标括起来，如：`X^2^`表示 X^2^
+
+### 6.警报
+
+```markdown
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+::: note note
+this is note
+:::
+```
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+::: note note
+this is note
+:::
