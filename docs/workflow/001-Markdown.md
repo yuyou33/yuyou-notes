@@ -325,65 +325,6 @@ $$
 <img src="img/1.jpg" width=30 height=30 style="float:right"/>图片在右边
 ```
 
-### 4.折叠
-
-模板：
-
-```html
-<details>
-  <summary>Title</summary>
-  contents ...
-</details>
-```
-
-Title 为折叠显示的摘要
-
-<details> <summary>Title</summary>
-    contents ...
-</details>
-
-折叠代码：
-
-```html
-<details>
-  <summary>点我展开看代码</summary>
-  # 方式1
-  <pre><code>
-      code...
-  </code></pre>
-  # 方式2 (三点）编程语言 code... （三点）(在obsidian和网站都不支持)
-</details>
-```
-
-<details>
-  <summary>点我展开看代码</summary>
-  # 方式1
-  <pre><code>
-      code...
-  </code></pre>
-  # 方式2 (三点）编程语言 code... （三点）
-  ```c++
-  cout << "yuyou";
-  ```
-</details>
-
-折叠代码==2==
-
-````
-::: details 点我查看代码
-```js
-console.log('Hello, VitePress!')
-``` :::
-````
-
-::: details 点我查看代码
-
-```js
-console.log('hello')
-```
-
-:::
-
 ---
 
 ## 四.扩展用法
@@ -462,4 +403,63 @@ this is note
 
 ::: note note
 this is note
+:::
+
+### 7.折叠
+
+模板：
+
+```html
+<details>
+  <summary>Title</summary>
+  contents ...
+</details>
+```
+
+Title 为折叠显示的摘要
+
+<details> <summary>Title</summary>
+    contents ...
+</details>
+
+折叠代码：
+
+```html
+<details>
+  <summary>点我展开看代码</summary>
+  # 方式1
+  <pre><code>
+      code...
+  </code></pre>
+  # 方式2 (三点）编程语言 code... （三点）(在obsidian和网站都不支持)
+</details>
+```
+
+<details>
+  <summary>点我展开看代码</summary>
+  # 方式1
+  <pre><code>
+      code...
+  </code></pre>
+  # 方式2 (三点）编程语言 code... （三点）
+  ```c++
+  cout << "yuyou";
+  ```
+</details>
+
+折叠代码==2==
+
+````
+::: details 点我查看代码
+```js
+console.log('Hello, VitePress!')
+``` :::
+````
+
+::: details 点我查看代码
+
+```js
+console.log('hello')
+```
+
 :::
