@@ -7,7 +7,7 @@ import { head, nav, sidebar } from './configs'
 import markdownItSup from 'markdown-it-sup'
 import markdownItSub from 'markdown-it-sub'
 import markdownItMark from 'markdown-it-mark'
-import markdownItKatex from 'markdown-it-katex'
+import markdownItMathjax3 from 'markdown-it-mathjax3'
 
 const APP_BASE_PATH = basename(process.env.GITHUB_REPOSITORY || '')
 
@@ -30,7 +30,7 @@ export default defineConfig({
       md.use(markdownItSup)
       md.use(markdownItSub)
       md.use(markdownItMark)
-      md.use(markdownItKatex)
+      md.use(markdownItMathjax3)
     }
   },
 

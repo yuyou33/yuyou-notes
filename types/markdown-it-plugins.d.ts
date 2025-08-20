@@ -14,7 +14,7 @@ declare module 'markdown-it-mark' {
   export default plugin
 }
 
-declare module 'markdown-it-katex' {
+declare module 'markdown-it-mathjax3' {
   const plugin: any
   export default plugin
 }

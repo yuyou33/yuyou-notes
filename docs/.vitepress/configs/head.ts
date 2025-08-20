@@ -9,5 +9,5 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'msapplication-TileImage', content: '/favicon.ico' }],
   ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
   // KaTeX CSS
-  ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css' }],
+  //['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css' }],
 ]
