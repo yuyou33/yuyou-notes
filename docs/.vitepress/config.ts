@@ -4,6 +4,11 @@ import MarkdownPreview from 'vite-plugin-markdown-preview'
 
 import { head, nav, sidebar } from './configs'
 
+import markdownItSup from 'markdown-it-sup'
+import markdownItSub from 'markdown-it-sub'
+import markdownItMark from 'markdown-it-mark'
+import markdownItKatex from 'markdown-it-katex'
+
 const APP_BASE_PATH = basename(process.env.GITHUB_REPOSITORY || '')
 
 export default defineConfig({
@@ -21,6 +26,12 @@ export default defineConfig({
   /* markdown 配置 */
   markdown: {
     lineNumbers: true,
+    config: (md) => {
+      md.use(markdownItSup)
+      md.use(markdownItSub)
+      md.use(markdownItMark)
+      md.use(markdownItKatex)
+    }
   },
 
   /* 主题配置 */
