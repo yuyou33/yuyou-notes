@@ -11,6 +11,13 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             ]
         },
         {
+            text: 'Python',
+            collapsed: false,
+            items: [
+                { text: 'CS61A', link: '/编程学习/Python/CS61A/CS61A' }
+            ]
+        },
+        {
             text: 'Linux',
             collapsed: false,
             items: [
@@ -37,7 +44,14 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             items: [
                 { text: '踩坑记录', link: '/workflow/踩坑记录/踩坑记录'}
             ]
-        }
+        },
+        {
+            text: '博客',
+            collapsed: false,
+            items: [
+                { text: 'vitepress的markdown-it拓展', link: '/workflow/博客/vitepress的markdown-it拓展'}
+            ]
+        },
     ],
     '/实用工具/': [
         { text: '导览', link: '/实用工具/index'},
