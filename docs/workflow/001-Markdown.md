@@ -106,8 +106,8 @@ int main()
 ```
 
 效果如下
-[百度](https://www.baidu.com/)
-<https://www.baidu.com/>
+[百度](https://www.baidu.com/)  
+<https://www.baidu.com/>  
 按住`Ctrl+鼠标左键`点击访问
 
 ##### 打开本地文件
@@ -160,9 +160,9 @@ Markdown 制作表格使用 `|` 来分隔不同的单元格，使用 `-` 来分�
 | 单元格 | 单元格 | 单元格 |
 | 单元格 | 单元格 | 单元格 |
 
-`:-`表示左对齐
-`-:`表示右对齐
-`:-:`表示中间对齐
+`:-`表示左对齐  
+`-:`表示右对齐  
+`:-:`表示中间对齐  
 快捷键`Ctrl+T`插入表格
 
 ---
@@ -266,7 +266,7 @@ $$
 ### 11.特殊符号
 
 **希腊字母**
-α 为`\alpha`，β 为`\beta`，γ 为`\gamma`，θ 为`\theta`，ρ 为`\rho`，λ 为`\lambda`，μ 为`\mu`
+α 为`\alpha`，β 为`\beta`，γ 为`\gamma`，θ 为`\theta`，ρ 为`\rho`，λ 为`\lambda`，μ 为`\mu`  
 Δ 为`\Delta`，π 为`\pi`，Ω 为`\Omega`
 
 **关系运算符**
@@ -274,9 +274,9 @@ $$
 
 小于<，小于等于 ≤ 为`\leq`或`\le`
 
-等于=，不等于 ≠ 为`\neq`或`\ne`
+等于=，不等于 ≠ 为`\neq`或`\ne`  
 **加减乘除**
-加`+` 减`-`
+加`+` 减`-`  
 乘 x 为`\times` 除 ÷ 为`\div`
 
 ### 12.矩阵表示
@@ -293,9 +293,9 @@ $$
 
 ### 1.改变字体颜色及大小
 
-用`<font> </font>`标签来改变字体的颜色及大小
-<font size=3 color="red">字体颜色为红色，大小为 3</font>
-<font size=4 color="blue">字体颜色为蓝色，大小为 4</font>
+用`<font> </font>`标签来改变字体的颜色及大小  
+<font size=3 color="red">字体颜色为红色，大小为 3</font>  
+<font size=4 color="blue">字体颜色为蓝色，大小为 4</font>  
 <font size=6 color="violet">字体颜色为紫罗兰，大小为 6</font>
 
 ### 2.改变对齐方式
@@ -353,12 +353,12 @@ $$
 
 ### 4.文本高亮
 
-用一对`==`将要高亮的文本括起来
+用一对`==`将要高亮的文本括起来  
 ==高亮==
 
 ### 5.上下标
 
-用一对`~`将下标括起来，如：`H~2~O`表示 H~2~O
+用一对`~`将下标括起来，如：`H~2~O`表示 H~2~O  
 用一对`^`将上标括起来，如：`X^2^`表示 X^2^
 
 ### 6.警报
@@ -384,19 +384,19 @@ this is note
 :::
 ```
 
-> [!NOTE]
+> [!NOTE]  
 > Useful information that users should know, even when skimming content.
 
-> [!TIP]
+> [!TIP]  
 > Helpful advice for doing things better or more easily.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Key information users need to know to achieve their goal.
 
-> [!WARNING]
+> [!WARNING]  
 > Urgent info that needs immediate user attention to avoid problems.
 
-> [!CAUTION]
+> [!CAUTION]  
 > Advises about risks or negative outcomes of certain actions.
 
 ::: note note
@@ -445,13 +445,14 @@ Title 为折叠显示的摘要
   ```
 </details>
 
-折叠代码==2==
+折叠代码==2==(obsidian 折叠不了，网页显示正常)
 
 ````
 ::: details 点我查看代码
 ```js
 console.log('Hello, VitePress!')
-``` :::
+```
+:::
 ````
 
 ::: details 点我查看代码
