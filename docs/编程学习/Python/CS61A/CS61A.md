@@ -272,7 +272,77 @@ square_successor = compose1(square, successor)
 result = square_successor(12)
 ```
 
-**牛顿法**
+**牛顿法**  
+牛顿法是一种迭代改进算法，用于查找返回值为 0 的数学函数的参数，它会对所有可微函数的零点的猜测值进行改造  
+`newton_update`  表示函数$f$及其导数$df$沿着这条切线到 0 的计算过程。
+
+```py
+def newton_update(f, df):
+	def update(x):
+		return x - f(x) / df(x)
+	return update
+
+def find_zero(f, df):
+	def near_zero(x):
+		return approx_eq(f(x), 0)
+	return improve(newton_update(f, df), near_zero)
+```
+
+**柯里化**  
+给定一个函数  `f(x, y)`，我们可以定义另一个函数  `g`  使得  `g(x)(y)`  等价于  `f(x, y)`。在这里，`g`  是一个高阶函数，它接受单个参数  `x`  并返回另一个接受单个参数  `y`  的函数  
+例如：`pow`函数的柯里化版本
+
+```py
+>>> def curried_pow(x):
+        def h(y):
+            return pow(x, y)
+        return h
+>>> curried_pow(2)(3)
+8
+```
+
+**Lambda 表达式**  
+可以使用 lambda 表达式临时创建函数，返回类型是一个函数
+
+```py
+def compose1(f, g):
+	return lambda x: f(g(x))
+```
+
+结构：
+
+```py
+lambda              x         :              f(g(x))
+"A function that    takes x   and returns    f(g(x))"
+```
+
+特点：简洁、直观，但难以辨认
+
+**函数装饰器**
+
+```py {7}
+>>> def trace(fn):
+        def wrapped(x):
+            print('-> ', fn, '(', x, ')')
+            return fn(x)
+        return wrapped
+
+>>> @trace
+    def triple(x):
+        return 3 * x
+
+>>> triple(12)
+->  <function triple at 0x102a39848> ( 12 )
+36
+```
+
+相当于：
+
+```py
+>>> def triple(x):
+        return 3 * x
+>>> triple = trace(triple)
+```
 
 ## Chapter 2: Building Abstractions with Data
 
