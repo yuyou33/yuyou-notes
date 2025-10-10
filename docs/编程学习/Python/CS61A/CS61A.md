@@ -344,7 +344,47 @@ lambda              x         :              f(g(x))
 >>> triple = trace(triple)
 ```
 
+### 递归函数
+
+函数调用自身  
+示例：分割数  
+求正整数分割为每部分不大于 m 的方案数  
+将全方案划分为两部分讨论：
+
+1. 使用最大数 m 分割整数 n-m
+2. 使用最大数 m-1 分割整数 n
+
+```py
+def count_partitions(n, m):
+    """计算使用最大 m 的整数分割 n 的方式的数量"""
+    if n == 0:
+        return 1
+    elif n < 0:
+        return 0
+    elif m == 0:
+        return 0
+    else:
+        return count_partitions(n-m, m) + count_partitions(n, m-1)
+```
+
 ## Chapter 2: Building Abstractions with Data
+
+## 引言
+
+每个值都有一个类来确定他的类型  
+内置的`type`函数可以检查任何值的类
+
+```py
+>>> type(2)
+<class 'int'>
+```
+
+python 包含三种原始数字类型：整数（`int`）、浮点数（`float`）和复数（`complex`）
+
+> [!tip]
+> 不同于其他编程语言，python3 中的`int`值是无界的
+
+## 数据抽象
 
 ## Chapter 3: Interpreting Computer Programs
 
