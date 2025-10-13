@@ -344,6 +344,15 @@ lambda              x         :              f(g(x))
 >>> triple = trace(triple)
 ```
 
+**多参数**  
+如果一个函数有多个参数，我们在嵌套一个高阶函数时，可以忽略具体参数，直接用`*args`代替
+
+```py
+def higher(fn, x):
+	def function(*args):
+		return fn(*args)
+```
+
 ### 递归函数
 
 函数调用自身  
