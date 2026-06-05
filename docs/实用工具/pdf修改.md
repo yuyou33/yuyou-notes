@@ -100,5 +100,5 @@ echo "下载完成！"
 ### 图片转 pdf
 
 ```sh
-img2pdf $(ls -v *.png) -0 output.pdf
+img2pdf $(ls -v *.png) -o output.pdf
 ```

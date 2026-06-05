@@ -26,7 +26,7 @@ features:
     details: Learn → Think → Code (Write) → Repeat
 ---
 
-<style>
+<!-- <style>
 /*爱的魔力转圈圈*/
 
 /*
@@ -50,4 +50,4 @@ features:
   margin-top: 2em;
   text-align: right;
 }
-</style>
+</style> -->

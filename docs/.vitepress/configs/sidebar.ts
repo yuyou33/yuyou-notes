@@ -7,25 +7,26 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             text: 'C++',
             collapsed: false,
             items: [
-                { text: 'CS106L', link: '/编程学习/C++/CS106L/CS106l' }
-            ]
-        },
-        {
-            text: 'Python',
-            collapsed: false,
-            items: [
-                { text: 'CS61A', link: '/编程学习/Python/CS61A/CS61A' }
+                { text: 'CS106L', link: '/编程学习/001-C++/CS106L/CS106l' }
             ]
         },
         {
             text: 'Linux',
             collapsed: false,
             items: [
-                { text: 'vim', link: '/编程学习/Linux/001-vim' },
-                { text: 'linux常用命令', link: '/编程学习/Linux/002-linux常用命令' },
-                { text: 'The Missing Semester', link: '/编程学习/Linux/003-The Missing Semester' }
+                { text: 'vim', link: '/编程学习/002-Linux/001-vim' },
+                { text: 'linux常用命令', link: '/编程学习/002-Linux/002-linux常用命令' },
+                { text: 'The Missing Semester', link: '/编程学习/002-Linux/003-The Missing Semester' }
             ]
-        }
+        },
+        {
+            text: 'Python',
+            collapsed: false,
+            items: [
+                { text: 'CS61A', link: '/编程学习/003-Python/CS61A/CS61A' },
+                { text: 'py速成', link: '/编程学习/003-Python/py速成' }
+            ]
+        },
     ],
     '/workflow/': [
         { text: '导览', link: '/workflow/index' },
@@ -38,6 +39,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         },
         { text: 'Markdown', link: '/workflow/001-Markdown' },
         { text: '正则表达式', link: '/workflow/002-正则表达式' },
+        { text: '键盘流', link: '/workflow/003-键盘流' },
         {
             text: '踩坑记录',
             collapsed: false,
