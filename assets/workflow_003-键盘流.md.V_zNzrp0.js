@@ -1,0 +1,9 @@
+import{_ as s,o as n,c as p,a8 as e}from"./chunks/framework.t4D-V4U-.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"workflow/003-键盘流.md","filePath":"workflow/003-键盘流.md","lastUpdated":1780635949000}'),l={name:"workflow/003-键盘流.md"};function t(r,a,i,o,c,m){return n(),p("div",null,[...a[0]||(a[0]=[e(`<p>个人习惯使用 vim 操作模式，vscode、obsidian 等软件都有 vim 模式选项，浏览器有 Vimium C 插件，为了使用顺手需要记住/更改/新加一些快捷键<br><strong>Vimium C</strong><br> 自定义快捷键：</p><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>unmap o</span></span>
+<span class="line"><span>unmap O</span></span>
+<span class="line"><span>map &lt;a-j&gt; previousTab</span></span>
+<span class="line"><span>map &lt;a-k&gt; nextTab</span></span>
+<span class="line"><span>map &lt;a-l&gt; goForward</span></span>
+<span class="line"><span>map &lt;a-h&gt; goBack</span></span>
+<span class="line"><span>unmap J</span></span>
+<span class="line"><span>unmap K</span></span>
+<span class="line"><span>map t LinkHints.activateEdit</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>定义了 alt+j/k 切换浏览器窗口<br> alt + h/l 返回本窗口的上/下一个页面<br> t 选择输入框</p><p><strong>vscode</strong><br> 设置 alt+j/k 切换窗口</p><p><strong>vim</strong><br><code>V</code>选择几行后，按<code>&lt;</code>/<code>&gt;</code>选择取消缩进/缩进</p>`,5)])])}const u=s(l,[["render",t]]);export{b as __pageData,u as default};
